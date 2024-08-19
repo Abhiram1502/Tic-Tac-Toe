@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tic-tac-toe">
+        <h2 class="heading">Tic-Tac-Toe</h2>
+        <div class="start" id="start">
+            <button class="button1" onclick="start()">Start</button>
+            <p class="para">Click on "Start"</p>
+        </div>
+        <div class="para" id="menu">
+            <p class="para1">Select any one option below.</p>
+        </div>
+        <div class="menu" id="players">
+            <button class="button1" id="onePlayerBtn">1 Player</button>
+            <button class="button2" id="twoPlayerBtn">2 Players</button>
+        </div>
+        <div class="game" id="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <div class="Events" id="Events">
+            <p class="para2" id="para2"></p>
+            <div class="buttons">
+                <button class="reset" id="reset" onclick="resetGame()">Reset</button>
+                <button class="back" id="back" onclick="back()">Back</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
